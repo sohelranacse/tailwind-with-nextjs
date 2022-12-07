@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function borders() {
   return (
     <div>
-      This is borders
+      <p className="mt-20">This is Borders documentation</p>
     </div>
-  )
+  );
 }
 
-export default borders
+export default borders;

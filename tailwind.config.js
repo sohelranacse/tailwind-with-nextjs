@@ -4,11 +4,15 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        13: "3.25rem",
+      },
+    },
     fontFamily: {
-      'sans': ['"Cambria"'],
-      'sans2': ['"Informal Roman"'],
-    }
+      sans: ['"Cambria"'],
+      sans2: ['"Informal Roman"'],
+    },
   },
   plugins: [],
-}
+};
